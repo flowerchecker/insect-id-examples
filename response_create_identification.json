@@ -1,10 +1,10 @@
 {
-    "access_token": "II7...",
+    "access_token": "OZN...",
     "model_version": "insect_id:1.0.0",
     "custom_id": null,
     "input": {
         "images": [
-            "https://staging.insect.id/media/images/19a0e1629089404f8b16a17340aa0242.jpg"
+            "https://staging.insect.id/media/images/65a737e36e81460aa673a9fab1a6ea2c.jpg"
         ],
         "similar_images": true
     },
@@ -36,7 +36,17 @@
                         "common_names": [
                             "European Stag Beetle"
                         ],
+                        "taxonomy": {
+                            "phylum": "Arthropoda",
+                            "class": "Insecta",
+                            "order": "Coleoptera",
+                            "family": "Lucanidae",
+                            "genus": "Lucanus"
+                        },
+                        "url": "https://en.wikipedia.org/wiki/Lucanus_cervus",
                         "gbif_id": "5743122",
+                        "inaturalist_id": "61749",
+                        "rank": "species",
                         "language": "en"
                     }
                 }
@@ -46,6 +56,6 @@
     "status": "COMPLETED",
     "sla_compliant_client": true,
     "sla_compliant_system": true,
-    "created": 1673943598.538941,
-    "completed": 1673943599.800986
+    "created": 1674035331.959672,
+    "completed": 1674035332.647019
 }
