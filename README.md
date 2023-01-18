@@ -16,19 +16,18 @@ with open("unknown_insect.jpg", "rb") as file:
     images = [base64.b64encode(file.read()).decode("ascii")]
 
 response = requests.post(
-    "https://insect.mlapi.ai/api/v1/identification",
+    "https://insect.mlapi.ai/api/v1/identification?details=common_names,url",
     json={
         "images": images,
-        "similar_images": true,
-        "details": ["common_names", "url"],
+        "similar_images": True,
     },
     headers={
         "Content-Type": "application/json",
         "Api-Key": "-- ask for one: https://admin.mlapi.ai/signup --",
     }).json()
 
-for suggestion in response["suggestions"]:
-    print(suggestion["insect_name"])    # Lucanus cervus
-    print(suggestion["insect_details"]["common_names"])    # European Stag Beetle
-    print(suggestion["insect_details"]["url"])    # https://en.wikipedia.org/wiki/Lucanus_cervus
+for suggestion in response["result"]["classification"]["suggestions"]:
+    print(suggestion["name"])                     # Lucanus cervus
+    print(suggestion["details"]["common_names"])  # European Stag Beetle
+    print(suggestion["details"]["url"])           # https://en.wikipedia.org/wiki/Lucanus_cervus
 ```
