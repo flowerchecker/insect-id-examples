@@ -17,7 +17,7 @@ def encode_file(file_name):
 
 
 def create_identification(file_names):
-    # More optional parameters: https://github.com/flowerchecker/Insect-id-API/wiki/Insect-identification
+    # More optional parameters: https://github.com/flowerchecker/Request-id-API/wiki/Insect-identification
     payload = {
         'images': [encode_file(img) for img in file_names],
         'latitude': 49.1951239,
