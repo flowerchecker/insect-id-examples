@@ -44,8 +44,8 @@
                             "genus": "Lucanus"
                         },
                         "url": "https://en.wikipedia.org/wiki/Lucanus_cervus",
-                        "gbif_id": "5743122",
-                        "inaturalist_id": "61749",
+                        "gbif_id": 5743122,
+                        "inaturalist_id": 61749,
                         "rank": "species",
                         "language": "en"
                     }
