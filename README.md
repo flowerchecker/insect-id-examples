@@ -3,7 +3,7 @@
 
 [Insect.id](https://insect.id) offers insect identification API based on machine learning. [Obtain the API key](https://admin.mlapi.ai/signup) and get started with your implementation.
 
-See our **[documentation](https://github.com/flowerchecker/Insect-id-API/wiki)** for the full reference.
+See our **[documentation](http://insect.kindwise.com/docs)** for the full reference.
 
 ## Insect Identification 🐞
 Send us your insect images encoded in base64, and get a list of possible species suggestions with additional information.
