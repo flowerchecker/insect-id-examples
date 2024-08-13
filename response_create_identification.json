@@ -1,53 +1,122 @@
 {
-    "access_token": "OZN...",
-    "model_version": "insect_id:1.0.0",
+    "access_token": "UC5...",
+    "model_version": "insect_id:1.2.2",
     "custom_id": null,
     "input": {
         "images": [
-            "https://staging.insect.id/media/images/65a737e36e81460aa673a9fab1a6ea2c.jpg"
+            "https://insect.kindwise.com/media/images/0fbb21d67fc94c968a6cca4be94b808c.jpg"
         ],
+        "datetime": "2024-08-13T10:19:25.444817+00:00",
+        "latitude": 49.1951239,
+        "longitude": 16.6077111,
         "similar_images": true
     },
     "result": {
         "classification": {
             "suggestions": [
                 {
-                    "id": "gbif:5743122",
-                    "name": "Lucanus cervus",
-                    "probability": 0.9926146,
+                    "id": "5e7e11c01cc2d1a1",
+                    "name": "Harmonia axyridis",
+                    "probability": 0.9648,
                     "similar_images": [
                         {
-                            "id": "cabf0ecbe5443c1624b0f7632d495221",
-                            "url": "https://insect-id.ams3.cdn.digitaloceanspaces.com/similar_images/1/cab/f0ecbe5443c1624b0f7632d495221.jpeg",
-                            "license_name": "CC BY 4.0",
-                            "license_url": "https://creativecommons.org/licenses/by/4.0/",
-                            "citation": "Rui Macário Ribeiro",
-                            "similarity": 0.651,
-                            "url_small": "https://insect-id.ams3.cdn.digitaloceanspaces.com/similar_images/1/cab/f0ecbe5443c1624b0f7632d495221.small.jpeg"
+                            "id": "46a73673bfdd314cd433ec9b0a0ead07",
+                            "url": "https://insect-id.ams3.cdn.digitaloceanspaces.com/similar_images/1/46a/73673bfdd314cd433ec9b0a0ead07.jpg",
+                            "similarity": 0.777,
+                            "url_small": "https://insect-id.ams3.cdn.digitaloceanspaces.com/similar_images/1/46a/73673bfdd314cd433ec9b0a0ead07.small.jpg"
                         },
                         {
-                            "id": "437b8cb287a4f738a2ca651cfa304d39",
-                            "url": "https://insect-id.ams3.cdn.digitaloceanspaces.com/similar_images/1/437/b8cb287a4f738a2ca651cfa304d39.jpg",
-                            "similarity": 0.624,
-                            "url_small": "https://insect-id.ams3.cdn.digitaloceanspaces.com/similar_images/1/437/b8cb287a4f738a2ca651cfa304d39.small.jpg"
+                            "id": "3a4353cd3014ddbd992b42d1a11490e4",
+                            "url": "https://insect-id.ams3.cdn.digitaloceanspaces.com/similar_images/1/3a4/353cd3014ddbd992b42d1a11490e4.jpeg",
+                            "license_name": "CC BY 4.0",
+                            "license_url": "https://creativecommons.org/licenses/by/4.0/",
+                            "citation": "Cole Shoemaker",
+                            "similarity": 0.393,
+                            "url_small": "https://insect-id.ams3.cdn.digitaloceanspaces.com/similar_images/1/3a4/353cd3014ddbd992b42d1a11490e4.small.jpeg"
                         }
                     ],
                     "details": {
-                        "common_names": [
-                            "European Stag Beetle"
-                        ],
-                        "taxonomy": {
-                            "phylum": "Arthropoda",
-                            "class": "Insecta",
-                            "order": "Coleoptera",
-                            "family": "Lucanidae",
-                            "genus": "Lucanus"
+                        "common_names": {
+                            "en": [
+                                "Asian Lady Beetle",
+                                "Multicolored Asian Lady Beetle",
+                                "Asian Ladybird Beetle",
+                                "Japanese Ladybug",
+                                "Harlequin Lady Beetle",
+                                "Asian Ladybug",
+                                "Haxy",
+                                "Harlequin Ladybird",
+                                "Asiatic Ladybird",
+                                "Many-named Ladybird",
+                                "Pumpkin Ladybeetle",
+                                "Orange Ladybug"
+                            ],
+                            "de": [
+                                "Harlekin-Marienkäfer",
+                                "Vielfarbiger Marienkäfer",
+                                "Asiatischer Marienkäfer"
+                            ]
                         },
-                        "url": "https://en.wikipedia.org/wiki/Lucanus_cervus",
-                        "gbif_id": 5743122,
-                        "inaturalist_id": 61749,
+                        "taxonomy": {
+                            "class": "Insecta",
+                            "genus": "Harmonia",
+                            "order": "Coleoptera",
+                            "family": "Coccinellidae",
+                            "phylum": "Arthropoda",
+                            "kingdom": "Animalia"
+                        },
+                        "gbif_id": 4989904,
                         "rank": "species",
-                        "language": "en"
+                        "entity_id": "5e7e11c01cc2d1a1"
+                    }
+                },
+                {
+                    "id": "1c75089bf594dc22",
+                    "name": "Hippodamia variegata",
+                    "probability": 0.0224,
+                    "similar_images": [
+                        {
+                            "id": "33ff4bb6694cecb3753d6776fe83df05",
+                            "url": "https://insect-id.ams3.cdn.digitaloceanspaces.com/similar_images/1/33f/f4bb6694cecb3753d6776fe83df05.jpeg",
+                            "license_name": "CC BY 4.0",
+                            "license_url": "https://creativecommons.org/licenses/by/4.0/",
+                            "citation": "Mattia Menchetti",
+                            "similarity": 0.373,
+                            "url_small": "https://insect-id.ams3.cdn.digitaloceanspaces.com/similar_images/1/33f/f4bb6694cecb3753d6776fe83df05.small.jpeg"
+                        },
+                        {
+                            "id": "709b745d84a788b36fc0a81be68b928c",
+                            "url": "https://insect-id.ams3.cdn.digitaloceanspaces.com/similar_images/1/709/b745d84a788b36fc0a81be68b928c.jpeg",
+                            "license_name": "CC BY 4.0",
+                            "license_url": "https://creativecommons.org/licenses/by/4.0/",
+                            "citation": "Lek Khauv",
+                            "similarity": 0.338,
+                            "url_small": "https://insect-id.ams3.cdn.digitaloceanspaces.com/similar_images/1/709/b745d84a788b36fc0a81be68b928c.small.jpeg"
+                        }
+                    ],
+                    "details": {
+                        "common_names": {
+                            "en": [
+                                "Variegated Lady Beetle",
+                                "Adonis Ladybird Beetle",
+                                "Spotted Amber Ladybird Beetle",
+                                "Spotted Amber Lady Beetle"
+                            ],
+                            "de": [
+                                "Variabler Flach-Marienkäfer"
+                            ]
+                        },
+                        "taxonomy": {
+                            "class": "Insecta",
+                            "genus": "Hippodamia",
+                            "order": "Coleoptera",
+                            "family": "Coccinellidae",
+                            "phylum": "Arthropoda",
+                            "kingdom": "Animalia"
+                        },
+                        "gbif_id": 1043082,
+                        "rank": "species",
+                        "entity_id": "1c75089bf594dc22"
                     }
                 }
             ]
@@ -56,6 +125,6 @@
     "status": "COMPLETED",
     "sla_compliant_client": true,
     "sla_compliant_system": true,
-    "created": 1674035331.959672,
-    "completed": 1674035332.647019
+    "created": 1723544365.444817,
+    "completed": 1723544365.679572
 }
