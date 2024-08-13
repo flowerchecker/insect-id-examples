@@ -10,7 +10,7 @@ if __name__ == '__main__':
     while identification.result is None:
         sleep(1)
         identification = api.get_identification(identification.access_token)
-    print(identification.result) # Result(classification=Classification(suggestions=[Suggestion(
+    print(identification.result)    # Result(classification=Classification(suggestions=[Suggestion(
     # id='5e7e11c01cc2d1a1', name='Harmonia axyridis', probability=0.9647, similar_images=[SimilarImage(
     # id='46a73673bfdd314cd433ec9b0a0ead07',
     # url='https://insect-id.ams3.cdn.digitaloceanspaces.com/similar_images/1/46a/73673bfdd314cd433ec9b0a0ead07.jpg',

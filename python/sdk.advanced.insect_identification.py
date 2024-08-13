@@ -10,8 +10,7 @@ if __name__ == '__main__':
         date_time=datetime(2024, 8, 13),
         details=[
             'common_names',     # list of strings - localized - local, non-scientific name
-            'url',              # string - localized - link to insect profile page (usually Wikipedia); if
-            # localized page not available, an English one is provided
+            'url',              # string - localized - link to insect profile page (usually Wikipedia)
             'description',      # string - localized, licensed - short description from Wikipedia
             'taxonomy',         # dict - scientific taxonomy
             'rank',             # string - taxonomic rank
