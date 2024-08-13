@@ -10,7 +10,7 @@
 
 ## Insect Identification 🐞
 
-Send us your plant images, and get a list of possible species suggestions with additional information.
+Send us your insect images, and get a list of possible species suggestions with additional information.
 
 ```bash
 pip install kindwise-api-client
