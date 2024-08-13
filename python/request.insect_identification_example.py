@@ -17,5 +17,8 @@ print(identification)
 for suggestion in identification['result']['classification']['suggestions']:
     print(suggestion['name'])                               # Harmonia axyridis
     print(f'probability {suggestion["probability"]:.2%}')   # probability 96.48%
-    print(suggestion['details']['common_names'])            # {'en': ['Asian Lady Beetle', 'Multicolored Asian Lady Beetle', 'Asian Ladybird Beetle', 'Japanese Ladybug', 'Harlequin Lady Beetle', 'Asian Ladybug', 'Haxy', 'Harlequin Ladybird', 'Asiatic Ladybird', 'Many-named Ladybird', 'Pumpkin Ladybeetle', 'Orange Ladybug'], 'de': ['Harlekin-Marienkäfer', 'Vielfarbiger Marienkäfer', 'Asiatischer Marienkäfer']}
+    print(suggestion['details']['common_names'])            # {'en': ['Asian Lady Beetle', 'Multicolored Asian Lady
+    # Beetle', 'Asian Ladybird Beetle', 'Japanese Ladybug', 'Harlequin Lady Beetle', 'Asian Ladybug', 'Haxy',
+    # 'Harlequin Ladybird', 'Asiatic Ladybird', 'Many-named Ladybird', 'Pumpkin Ladybeetle', 'Orange Ladybug'],
+    # 'de': ['Harlekin-Marienkäfer', 'Vielfarbiger Marienkäfer', 'Asiatischer Marienkäfer']}
     print()
