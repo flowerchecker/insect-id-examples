@@ -13,7 +13,8 @@ response = requests.post(
 )
 
 identification = response.json()
-print(identification)
+
+print('is insect' if identification['result']['is_insect']['binary'] else 'is not insect')
 for suggestion in identification['result']['classification']['suggestions']:
     print(suggestion['name'])                               # Harmonia axyridis
     print(f'probability {suggestion["probability"]:.2%}')   # probability 96.48%
